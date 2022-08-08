@@ -1,5 +1,5 @@
-#include<stdio.h> 
-#include<stdbool.h>
+#include <stdio.h> 
+#include <stdbool.h>
 
 #define N 8
 #define TRUE 0
@@ -75,7 +75,7 @@ void printNums(int* nums, int size) {
 
 void primaryResult(int *count, int* nums) {
     (* count)++;
-    printf("第%d种: ", *count);
+    printf("this is %d once: ", *count);
     printNums(nums, N);
     printf("-----------------------------------------------------------------\n");
 }
